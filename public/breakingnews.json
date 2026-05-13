@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Bangladesh launches new satellite for communication",
+    "slug": "bangladesh-new-satellite",
+    "category": "Technology",
+    "author": "Imran Hossain",
+    "date": "2026-05-01",
+    "image": "https://i.ibb.co/satellite.jpg",
+    "description": "Bangladesh has successfully launched a new satellite to improve communication services across the country.",
+    "content": "The government of Bangladesh has taken a big step in digital transformation by launching a new satellite. এটি দেশের ইন্টারনেট এবং সম্প্রচার ব্যবস্থাকে আরও উন্নত করবে।",
+    "views": 1200
+  },
+  {
+    "id": 2,
+    "title": "Cricket: Bangladesh wins thrilling match",
+    "slug": "bangladesh-cricket-win",
+    "category": "Sports",
+    "author": "Rakib Hasan",
+    "date": "2026-05-02",
+    "image": "https://i.ibb.co/cricket.jpg",
+    "description": "Bangladesh defeated India in a thrilling last-over match.",
+    "content": "In a nail-biting finish, Bangladesh secured a historic victory. শেষ ওভারে ম্যাচ জিতে নেয় টাইগাররা।",
+    "views": 3400
+  },
+  {
+    "id": 3,
+    "title": "New education policy announced",
+    "slug": "education-policy-2026",
+    "category": "Education",
+    "author": "Nusrat Jahan",
+    "date": "2026-04-30",
+    "image": "https://i.ibb.co/education.jpg",
+    "description": "Government introduces new education reforms.",
+    "content": "The new policy aims to modernize the education system with digital tools and updated curriculum.",
+    "views": 980
+  },
+  {
+    "id": 4,
+    "title": "AI technology changing the world",
+    "slug": "ai-changing-world",
+    "category": "Technology",
+    "author": "Sabbir Rahman",
+    "date": "2026-05-02",
+    "image": "https://i.ibb.co/ai.jpg",
+    "description": "Artificial Intelligence is reshaping industries globally.",
+    "content": "AI is now being used in healthcare, finance, and education. এটি মানুষের কাজকে সহজ করে দিচ্ছে।",
+    "views": 2100
+  }
+]
