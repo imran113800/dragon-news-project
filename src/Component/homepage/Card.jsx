@@ -5,7 +5,7 @@ import { CiShare2 } from "react-icons/ci";
 
 const Card = ({ news }) => {
     return (
-        <div className="card bg-base-100 w-96 shadow-sm">
+        <div className="card bg-base-100  shadow-sm">
             <div className='flex justify-between items-center bg-slate-600 p-4'>
 
 
@@ -44,9 +44,9 @@ const Card = ({ news }) => {
                     height={800}
                     className='w-full'
                 ></Image>
-                <p>{news.details}</p>
 
             </figure>
+            <p>{news.details}</p>
         </div>
     );
 };
