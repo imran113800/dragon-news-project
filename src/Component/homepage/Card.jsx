@@ -37,7 +37,7 @@ const Card = ({ news }) => {
             <div className='flex flex-col px-2'>
 
                 <div className="card-body">
-                    <h2 className="card-title py-3 font-bold">{news.title}</h2>
+                    <h2 className="card-title py-1 font-bold">{news.title}</h2>
 
                 </div>
                 <figure>
