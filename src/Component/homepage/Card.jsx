@@ -6,10 +6,11 @@ import { CiShare2 } from "react-icons/ci";
 const Card = ({ news }) => {
     return (
         <div className="card bg-base-100  shadow-sm">
-            <div className='flex justify-between items-center bg-slate-600 p-4'>
+            <div className='flex justify-between items-center bg-slate-400 p-4'>
 
 
                 <div className='flex gap-2 items-center'>
+
                     <div className='w-10 h-10 overflow-hidden rounded-full'>
                         <Image
                             src={news.author?.img}
@@ -33,20 +34,26 @@ const Card = ({ news }) => {
                 </div>
 
             </div>
-            <div className="card-body">
-                <h2 className="card-title"></h2>
-                <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-            </div>
-            <figure>
-                <Image src={news.image_url}
-                    alt={news.title}
-                    width={800}
-                    height={800}
-                    className='w-full'
-                ></Image>
+            <div className='flex flex-col px-2'>
 
-            </figure>
-            <p>{news.details}</p>
+                <div className="card-body">
+                    <h2 className="card-title py-3 font-bold">{news.title}</h2>
+
+                </div>
+                <figure>
+                    <Image src={news.image_url}
+                        alt={news.title}
+                        width={800}
+                        height={800}
+                        className='w-full'
+                    ></Image>
+
+                </figure>
+                <div>
+
+                    <p className='py-3'>{news.details}</p>
+                </div>
+            </div>
         </div>
     );
 };
